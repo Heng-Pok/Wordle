@@ -1,0 +1,5 @@
+.rotate {
+    /* Rotate animation for 360 degrees */
+    -fx-rotate: 0;
+    -fx-transition: rotate 1s;
+}

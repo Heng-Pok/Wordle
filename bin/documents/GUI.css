@@ -1,0 +1,51 @@
+@font-face {
+	src: url("fonts/RetroGaming.ttf");
+}
+
+.pane{
+	-fx-background-color: linear-gradient(to top, #c175ff, #ffffff);
+}
+
+.title{
+	-fx-font-family: "Retro Gaming";
+	-fx-font-size: 40.0px;
+	-fx-wrap-text: true;
+	-fx-text-alignment: center;
+}
+
+.heading1{
+	-fx-font-family: "Retro Gaming";
+	-fx-font-size: 30.0px;
+	-fx-wrap-text: true;
+	-fx-text-alignment: center;
+}
+
+.normal{
+	-fx-font-family: "Retro Gaming";
+	-fx-font-size: 15.0px;
+	-fx-wrap-text: true;
+}
+
+.button{
+	-fx-font-family: "Retro Gaming";
+	-fx-font-size: 15.0px;
+	-fx-text-fill: #ffffff;
+	-fx-background-color: #160066;
+	-fx-border-color: #ffffff;
+	-fx-background-radius: 0.0px;
+	-fx-border-radius: 0.0px;
+	-fx-cursor: hand;
+	-fx-effect: dropshadow(one-pass-box, #000000, 10.0, 0.1, 5.0, 5.0);
+}
+
+.button:hover{
+	-fx-font-family: "Retro Gaming";
+	-fx-font-size: 15.0px;
+	-fx-text-fill: #160066;
+	-fx-background-color: #ffffff;
+	-fx-border-color: #160066;
+	-fx-background-radius: 0.0px;
+	-fx-border-radius: 0.0px;
+	-fx-cursor: hand;
+	-fx-effect: dropshadow(one-pass-box, #000000, 10.0, 0.1, 5.0, 5.0);
+}

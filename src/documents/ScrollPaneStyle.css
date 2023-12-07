@@ -1,0 +1,53 @@
+/* ScrollPane style */
+
+/* Vertical scroll bar style */
+.scroll-bar:vertical {
+    -fx-background-color: #8470ff; /* Background color of the scroll bar (Light Slate Blue) */
+}
+
+.scroll-bar:vertical:hover {
+    -fx-background-color: #6a5acd; /* Hover color of the scroll bar (Slate Blue) */
+}
+
+.scroll-bar:vertical:pressed {
+    -fx-background-color: #6a5acd; /* Hover color of the scroll bar (Slate Blue) */
+}
+
+/* Thumb (the draggable part of the scroll bar) style */
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #8a2be2; /* Color of the thumb (Blue Violet) */
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #4b0082; /* Hover color of the thumb (Indigo) */
+}
+
+.scroll-bar:vertical .thumb:pressed {
+    -fx-background-color: #ffff99; /* Hover color of the thumb (Light Yellow) */
+}
+
+/* Horizontal scroll bar style */
+.scroll-bar:horizontal {
+    -fx-background-color: #8470ff; /* Background color of the scroll bar (Light Slate Blue) */
+}
+
+.scroll-bar:horizontal:hover {
+    -fx-background-color: #6a5acd; /* Hover color of the scroll bar (Slate Blue) */
+}
+
+.scroll-bar:horizontal:pressed {
+    -fx-background-color: #6a5acd; /* Hover color of the scroll bar (Slate Blue) */
+}
+
+/* Thumb (the draggable part of the scroll bar) style */
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #8a2be2; /* Color of the thumb (Blue Violet) */
+}
+
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #4b0082; /* Hover color of the thumb (Indigo) */
+}
+
+.scroll-bar:horizontal .thumb:pressed {
+    -fx-background-color: #ffff99; /* Hover color of the thumb (Light Yellow) */
+}

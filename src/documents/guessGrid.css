@@ -1,0 +1,28 @@
+@font-face {
+	src: url("fonts/RetroGaming.ttf");
+}
+
+.correctSquare{
+	-fx-fill: #58ff26;
+	-fx-stroke: #000000;
+	-fx-background-radius: 0.0px;
+	-fx-border-radius: 0.0px;
+}
+.incorrectSquare{
+	-fx-fill: #bcbcbc;
+	-fx-stroke: #000000;
+	-fx-background-radius: 0.0px;
+	-fx-border-radius: 0.0px;
+}
+
+.partialCorrectSquare{
+	-fx-fill: #fff466;
+	-fx-stroke: #000000;
+	-fx-background-radius: 0.0px;
+	-fx-border-radius: 0.0px;
+}
+
+.text{
+	-fx-font-family: "Retro Gaming";
+	-fx-font-size: 20.0px;
+}
